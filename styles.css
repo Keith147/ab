@@ -1,0 +1,188 @@
+body{
+  background:url(https://www.zastavki.com/pictures/originals/2015/Movies_Water_planet__the_film_Interstellar_099980_.png) no-repeat;
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.main{
+  width:550px;
+  height:700px;
+}
+
+.alia{
+    width:550px;
+    height:700px;
+}
+    
+.main {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.alia {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+p{
+    text-align:center;
+    font-size:25px;
+}
+
+.bad{
+    display:flex;
+    justify-content:center;
+}
+#first{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+#second{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+#third{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+#forth{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+.start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#starts{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    border-color:white;
+    color:red;
+}
+
+#zero{
+    color:#00ff99;
+}
+
+#zeroa{
+    color:#00ff99;
+}
+
+#math{
+    color:lightblue;
+    border:5px solid;
+    border-color:white;
+    padding:10px;
+}
+
+#res{
+    padding:2px 5px;
+    border-color:#cccccc;
+}
+.result{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+#answer{
+    font-size:14px;
+    padding:2px;
+}
+#puz{
+    color:lightblue;
+    border-color:white;
+    border:5px solid;
+    padding:10px;
+}
+.puzzle{
+    display:flex;
+    justify-content:space-between;
+    margin:10px;
+}
+.rec{
+    width:200px;
+    height:150px;
+}
+.trap{
+    width:200px;
+    height:150px;
+}
+.star{
+    width:200px;
+    height:150px;
+}
+#final{
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+#riddle{
+    display:flex;
+    justify-content:center;
+    border:5px solid;
+    padding:10px;
+    color:lightblue;
+}
+.last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#name{
+    font-size:30px;
+    padding:2px;
+    height:45px;
+    width:250px;
+}
+.rid{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+#end{
+    padding:2px 5px;
+    border-color:#cccccc;
+    
+}
+#die{
+    color:red;
+    font-size:30px;
+}.wow{
+    display:flex;
+    justify-content:center;
+    position:center;
+}
+#return{
+    font-size:40px;
+    display:flex;
+    border:5px solid;
+    padding:10px;
+    color:white;
+    justify-content:center;
+}
+.good{
+    display:flex;
+    justify-content:center;
+}
