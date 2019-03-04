@@ -20,7 +20,7 @@ $("#die").hide();
 $("#dies").hide();
 $("#return").hide();
 
-$(".alia").click(function(){
+$(".alia").one('click', function(){
    $("#first").text("Alien: How DARE you intrude our planet!!!");  
    $("#first").show();
    $("#zero").hide();
@@ -28,7 +28,7 @@ $(".alia").click(function(){
 });
 
 $("#first").click(function(){
-    $("#second").text("Human: We are space explorers from Earth and is here to colonize this planet.");
+    $("#second").text("Human: We are space explorers from Earth and are here to colonize this planet.");
     $("#second").show();
     $("#first").hide();
 });
