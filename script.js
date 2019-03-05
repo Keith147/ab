@@ -28,7 +28,7 @@ $(".alia").one('click', function(){
 });
 
 $("#first").click(function(){
-    $("#second").text("Human: We are space explorers from Earth and are here to colonize this planet.");
+    $("#second").text("Player: We are space explorers from an unnamed planet and are here to colonize this planet.");
     $("#second").show();
     $("#first").hide();
 });
@@ -39,7 +39,7 @@ $("#second").click(function(){
     $("#second").hide();
 });
 $("#third").click(function(){
-    $("#forth").text("Human: No problem, I will accept your challenge.");
+    $("#forth").text("Player: No problem, I will accept your challenge.");
     $("#forth").show();
     $("#third").hide();
     $("#starts").show();
